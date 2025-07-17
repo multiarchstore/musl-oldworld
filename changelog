@@ -1,0 +1,22 @@
+=========
+Date: 2021.04.07
+Author: <limeidan@loongson.cn>
+
+	sync sigcontext struction definition with kernel and glibc
+
+	kernel commit id: fd3d7137e67bd48d486accfa3550e14f3b763183
+	kernel commit date: Thu Apr 1 09:05:07 2021 +0800
+	glibc commit id: 4ebcb48860478ffc5eb89abae8f0fb351b03b1d8
+	glibc commit date: Tue Apr 6 15:20:58 2021 +0800
+
+=========
+Date: 2021.04.02
+Author: <limeidan@loongson.cn>
+
+	ensure sigcontext format same with kernel and glibc & CONFIG_CPU_HAS_LASX keep opened & CONFIG_CPU_HAS_LBT has been closed in kernel.
+
+	kernel commit id: 81036e219c1ee12c7ebf82d692cb8d83b6873e97
+	kernel commit date: Thu Apr 1 19:29:19 2021 +0800
+	glibc commit id: 5afde11c4f1295ee3acd85025d3bb49134b31ffd
+	glibc commit date: Mon Mar 29 16:58:05 2021 +0800
+
